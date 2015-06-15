@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Category Id: "
+        android:id="@+id/messageCategoryId"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="category id"
+        android:paddingLeft="10dp"
+        android:id="@+id/categoryId"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/messageCategoryId"
+        android:layout_toEndOf="@+id/messageCategoryId" />
+
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Category Name: "
+        android:id="@+id/messageCategoryName"
+        android:layout_below="@+id/messageCategoryId"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="category name"
+        android:paddingLeft="10dp"
+        android:id="@+id/categoryName"
+        android:layout_below="@+id/categoryId"
+        android:layout_toRightOf="@+id/messageCategoryName"
+        android:layout_toEndOf="@+id/messageCategoryName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Category Desc: "
+        android:id="@+id/messageCategoryDescription"
+        android:layout_below="@+id/messageCategoryName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="category description"
+        android:paddingLeft="10dp"
+        android:id="@+id/categoryDescription"
+        android:layout_below="@+id/categoryName"
+        android:layout_toRightOf="@+id/messageCategoryName"
+        android:layout_toEndOf="@+id/messageCategoryName" />
+</RelativeLayout>
